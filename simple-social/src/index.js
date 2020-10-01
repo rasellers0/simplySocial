@@ -7,13 +7,17 @@ import FriendList from './FriendList';
 import Comments from './Comments';
 import Search from './UserSearch';
 import Profile from './Profile';
+import Login from './Login'
+
 
 ReactDOM.render(
   <React.StrictMode>
     
     <Router>
     <Switch>
-      <Route exact path="/" component={App} />
+      <Route exact path="/" component={Login} />
+      <Route path="main" component={App} />
+      {/* <Route exact path="/" component={App} /> */}
       <Route path="/Friends" component={FriendList} />
       <Route path="/Comments" component={Comments} />
       <Route path="/Search" component={Search}/>

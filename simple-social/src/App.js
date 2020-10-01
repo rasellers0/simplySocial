@@ -5,6 +5,8 @@ import Header from './Header';
 import StatusFeed from './StatusFeed';
 import Footer from './Footer';
 
+// const USER_IMG = 'C:\Users\Ryan\Desktop\Simple Social Media Demo\user_resources';
+
 function App () {
   return (
     <div className="App app-container">
