@@ -47,9 +47,9 @@ function Profile (props) {
     <div>
       <ul>
         <li><strong>User ID: </strong>{userKey}</li>
-        <li><strong>First Name: </strong>{userFields !== null ? userFields.firstname : null}</li>
-        <li><strong>Middle Name: </strong>{userFields !== null ? userFields.middlename : null}</li>
-        <li><strong>Last Name: </strong>{userFields !== null ? userFields.lastname : null}</li>
+        <li><strong>First Name: </strong>{userFields !== null ? userFields.firstName : null}</li>
+        <li><strong>Middle Name: </strong>{userFields !== null ? userFields.middleName : null}</li>
+        <li><strong>Last Name: </strong>{userFields !== null ? userFields.lastName : null}</li>
         <li><strong>Bio: </strong>{userFields !== null ? userFields.bio : null}</li>
       </ul>
       <strong>Most Recent Comments</strong>
@@ -71,15 +71,15 @@ function Profile (props) {
         </div>
         <div className="form-group col-sm-6">
           <label>First Name:</label>
-          <input type="text" className="form-control" value={userFields !== null ? userFields.firstname : null} onChange={handleChange}/>
+          <input type="text" className="form-control" value={userFields !== null ? userFields.firstName : null} onChange={handleChange}/>
         </div>
         <div className="form-group col-sm-6">
           <label>Middle Name:</label>
-          <input type="text" className="form-control" value={userFields !== null ? userFields.middlename : null} />
+          <input type="text" className="form-control" value={userFields !== null ? userFields.middleName : null} />
         </div>
         <div className="form-group col-sm-6">
           <label>Last Name:</label>
-          <input type="text" className="form-control" value={userFields !== null ? userFields.lastname : null} />
+          <input type="text" className="form-control" value={userFields !== null ? userFields.lastName : null} />
         </div>
         <div className="form-group col-sm-6">
           <label>Bio:</label>

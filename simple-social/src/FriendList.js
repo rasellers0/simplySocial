@@ -12,7 +12,7 @@ function FriendList () {
         {userList.users.map ((value, index) => {
           return (
             <li key={index} style={{marginLeft:"20px"}}>
-              {value.firstname + ' ' + value.middlename + ' ' + value.lastname}
+              {value.firstName + ' ' + value.middleName + ' ' + value.lastName}
             </li>
           );
         })}

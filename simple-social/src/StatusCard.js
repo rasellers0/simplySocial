@@ -18,7 +18,7 @@ function StatusCard (props) {
         <div className="card-header">
           <img src={logo} className="App-logo float-left" alt="logo" />
           <span className="float-right">
-            {props.name.firstname + ' ' + props.name.middlename + ' ' +  props.name.lastname}
+            {props.name.firstName + ' ' + props.name.middleName + ' ' +  props.name.lastName}
           </span>
         </div>
         <div className="card-body">{props.name.bio}</div>

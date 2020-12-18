@@ -20,7 +20,7 @@ function UserSearch () {
   //   );
 
   function doSearch () {
-    const results = people.users.filter (p => (p.firstname + ' ' + p.middlename + ' ' + p.lastname).toLowerCase ().includes (searchTerm));
+    const results = people.users.filter (p => (p.firstName + ' ' + p.middleName + ' ' + p.lastName).toLowerCase ().includes (searchTerm));
     setSearchResults (results);
   }
 
